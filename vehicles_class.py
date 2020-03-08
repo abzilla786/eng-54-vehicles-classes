@@ -1,5 +1,5 @@
 # define vehicle class here
-class vehicles():
+class vehicles:
 
     # Characterists:
     # n_passangers
@@ -16,13 +16,3 @@ class vehicles():
 
     def brake(self):
         return 'slowing down'
-
-
-car = vehicles(5, '500litres')
-print(car)
-
-print(car.n_passengers)
-print(car.cargo)
-
-print(car.accelerate())
-print(car.brake())
