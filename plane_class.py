@@ -12,4 +12,3 @@ class plane(vehicles):
         return 'take off'
     def touch_down(self):
         return 'we have touched down'
-    
